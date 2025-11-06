@@ -4,16 +4,18 @@ import BaterPonto from "./components/ui/baterPonto/page"
 import RootLayout from "./RootLayout";
 import Home from "./components/ui/Home/page"
 import ConsultarPonto from "../src/components/consultarPonto/page";
+import DesbloquearFuncionario from "../src/components/desbloquearFuncionario/page";
 
 export function App() {
   return (
     <>
       <Routes>
         <Route element={<RootLayout />}>
-          <Route path="/" element={<Home />} />
-          <Route path="/baterPonto" element={<BaterPonto />} />
-          <Route path="/consultarPonto" element={<ConsultarPonto />} />
-          <Route path="*" element={<Home />} />
+            <Route path="/" element={<Home />} />
+            <Route path="/baterPonto" element={<BaterPonto />} />
+            <Route path="/consultarPonto" element={<ConsultarPonto />} />
+            <Route path="/desbloquearFuncionario" element={<DesbloquearFuncionario />} />
+            <Route path="*" element={<Home />} />
         </Route>
       </Routes>
     </>

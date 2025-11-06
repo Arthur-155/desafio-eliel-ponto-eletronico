@@ -52,8 +52,9 @@ export default function Header() {
                                         </Link>
                                     </NavigationMenuLink>
                                 </li>
-                                <ListItem href="/consultarPonto" title="Desbloquear funcionario">Por onde o RH desbloqueia o funcionário</ListItem >
+                                <ListItem href="/desbloquearFuncionario" title="Desbloquear funcionario">Por onde o RH desbloqueia o funcionário</ListItem >
                                 <ListItem href="/consultarPonto" title="Consultar pontos de funcionário">Por onde o RH pode consultar o ponto de todos os funcionários</ListItem>
+
                             </ul>
                         </NavigationMenuContent>
                     </NavigationMenuItem>
