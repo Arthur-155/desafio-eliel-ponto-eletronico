@@ -40,10 +40,4 @@ public class FuncionarioController {
         funcionarioService.deletarFuncionario(id);
     }
 
-    @GetMapping("/bloqueados")
-    public List<FuncionarioModel> listarBloqueados() {
-        return funcionarioService.listarBloqueados();
-    }
-
-
 }
